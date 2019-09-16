@@ -12,8 +12,10 @@ const IndexPage = () => (
     <SEO title="Home" />
     {/* slide 1 start */}
     <section className="slide1" id="home">
+      <div className="welcome">
     <h1>Welcome</h1>
     <a href="#about">About true money</a>
+    </div>
     </section>
     {/* slide 1 end */}
     {/* slide 2 start */}
