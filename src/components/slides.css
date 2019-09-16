@@ -5,7 +5,7 @@
     left: 0;
     width: 100%;
     padding: 0.75rem 1rem;
-    height: 50px;
+    height: 30px;
     background-color: rgb(255, 255, 255);
     z-index: 1;
   }
@@ -45,18 +45,29 @@
   }
   
   .show-nav {
-    height: 500px;
+    height: 50vh;
     background-color: #fff;
+    
   }
   .logo{
     position: relative;
     top:0;
   }
- 
+ #home{
+   padding-top: 30px;
+ }
+ #about{
+  padding-top: 50px;
+}
+#options{
+  padding-top: 50px;
+}
+#faqs{
+  padding-top: 50px;
+}
   /* end of navbar */
 .slide1 {
     height: 100vh;
-    margin-top: 60px;
     background-image: url(../images/tm.jpg);
     background-color: #333;
     background-attachment: fixed;
@@ -158,9 +169,11 @@
     .descr{
       float: left;
       margin-top: 20vh;
+      width: 80%;
     }
     .slide4 p{
       float: left;
+      width: 80%;
     }
     .ha2{
       text-align:center;
