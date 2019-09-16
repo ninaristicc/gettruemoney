@@ -9,7 +9,9 @@ Component {
     state={
         isOpen: false
   }
-
+  handleToggle = () => {
+    this.setState({ isOpen: !this.state.isOpen });
+    };
   onClick() {
     this.setState({
         collapse: !this.state.collapse,
