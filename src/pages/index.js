@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-import ImageFour from "../components/imageFour"
+import ImageFour from "../components/ImageFour"
 import ImageThree from "../components/ImageThree"
 import SEO from "../components/seo"
 
