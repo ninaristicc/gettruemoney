@@ -52,28 +52,10 @@
     position: relative;
     top:0;
   }
-  @media screen and (min-width: 480px) {
-    .nav-btn {
-      display: none;
-    }
-    .nav-center {
-      max-width: 1170px;
-      margin: 0 auto;
-      display: flex;
-    }
-    .nav-links {
-      height: auto;
-      display: flex;
-      margin-left: 4rem;
-    }
-    .nav-links a {
-      margin: 0 1rem;
-      padding: 0.5rem 0;
-    }
-  }
+ 
   /* end of navbar */
 .slide1 {
-    height: calc(100vh - 50px);
+    height: 100vh;
     margin-top: 60px;
     background-image: url(../images/tm.jpg);
     background-color: #333;
@@ -83,82 +65,107 @@
     text-align: center;
 }
 .slide1 h1{
-  padding-top: 100px;
+  padding-top: 200px;
   text-align: center;
+  padding-bottom: 30px;
 }
-.slide1 button{
+.slide1 a{
   padding: 30px;
   border: 2px solid white;
   background-color: #333333;
   color: white;
+  text-decoration: none;
   margin-top: 40px;
   cursor: pointer;
-}
-.slide2 {
-    min-height: 100vh;
-    /* background-image: url(../images/tm-logo.jpg); */
-    background-color: rgb(255, 255, 255);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: relative;
-}
-.slide2 img{
-  float: left;
-  width: 50%;
-  display: block;
-  padding: 20px;
-  position: relative;
-}
-.slide2 p{
-  float:right;
- width: 50%;
- padding-left: 20px;
- margin-top: -40vh;
-
 }
 .slide3 {
     min-height: 100vh;
     /* background-image: url(../images/tm-logo.jpg); */
-    background-color: rgb(255, 253, 253);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: relative;
-}
-.slide3 img{
-  float: left;
-  width: 50%;
-  display: block;
-  padding: 20px;
-  position: relative;
-}
-.slide3 p{
-  float:right;
- width: 50%;
- padding-left: 20px;
- margin-top: 50px;
-}
-.slide4 {
-    min-height: 100vh;
-    /* background-image: url(../images/tm-logo.jpg); */
     background-color: rgb(255, 255, 255);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: relative;
+    display: inline-block;
+    margin-top: 70px;
 }
-.slide4 p{
+.image{
+  /* float: left; */
+  width: 50%;
+  margin-top: 10%;
+  padding: 20px;
+  z-index: 10;
+}
+.descr{
   float:right;
   width: 50%;
-  padding: 50px;
-  margin-top: -40vh;
+  padding: 30px;
+  display: block;
+  margin-top: 10%;
+}
+.ha2{
+  text-align: center;
+  padding-top: 70px;
 
 }
-.slide4 img{
+.slide4 {
+  min-height: 100vh;
+  /* background-image: url(../images/tm-logo.jpg); */
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+}
+.slide4 p{
   float: left;
   width: 50%;
-  display: block;
-  padding: 20px;
-  position: relative;
+  padding: 30px;
+  margin-top: 12%;
+}
+.slide4 .image {
+  float: right;
+  width: 50%;
+  padding: 30px;
+  margin-top: 12%;
+}
+@media screen and (min-width: 480px) {
+  .nav-btn {
+    display: none;
+  }
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .nav-links {
+    height: auto;
+    display: flex;
+    margin-left: 4rem;
+  }
+  .nav-links a {
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .slide3{
+    height: 100vh;
+  }
+    .slide3 .image{
+      width: 100%;
+      margin: 0 auto;
+      display: inline-block;
+        }
+    .slide4 .image{
+      width: 100%;
+      margin: 0 auto;
+      display: inline-block;
+    }
+    .descr{
+      float: left;
+      margin-top: 20vh;
+    }
+    .slide4 p{
+      float: left;
+    }
+    .ha2{
+      text-align:center;
+      margin: 0 auto;
+      padding: 20px;
+      z-index: 100;
+    }
 }
