@@ -8,10 +8,13 @@ export default class Navbar extends
 Component {
     state={
         isOpen: false
-    }
-    handleToggle = () =>{
-        this.setState({isOpen:!this.state.isOpen})
-    }
+  }
+
+  onClick() {
+    this.setState({
+        collapse: !this.state.collapse,
+      });
+  }
     render() {
         return (
             <nav className="navbar">
@@ -29,16 +32,16 @@ Component {
                  <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
                  >
                 <li>
-                    <a href="#home">Home</a>
+                    <a onClick={this.handleToggle} href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <a onClick={this.handleToggle} href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#options">Options</a>
+                    <a onClick={this.handleToggle} href="#options">Options</a>
                 </li>
                 <li>
-                    <a href="#faqs">FAQs</a>
+                    <a onClick={this.handleToggle} href="#faqs">FAQs</a>
                 </li>
                  </ul>
                 </div>
