@@ -153,23 +153,24 @@
     padding: 0.5rem 0;
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1400px) {
   .slide3{
     height: 100vh;
   }
     .slide3 .image{
-      width: 100%;
+      width: 80%;
       margin: 0 auto;
       display: inline-block;
         }
     .slide4 .image{
-      width: 100%;
+      width: 80%;
       margin: 0 auto;
       display: inline-block;
+      float: left;
     }
     .descr{
       float: left;
-      margin-top: 20vh;
+      margin-top: 5%;
       width: 80%;
     }
     .slide4 p{
