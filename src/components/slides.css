@@ -84,9 +84,6 @@
   color: black;
 }
 .welcome{
-  box-sizing: border-box;
-  border: 2px solid white;
-  box-shadow: 1px 2px 5px 1px;
   width: 50%;
   height: 40%;
      margin: 0 auto;
@@ -112,18 +109,18 @@
 }
 .image{
   /* float: left; */
-  width: 50%;
-  margin-top: 9%;
-  padding: 20px;
-  padding-left: 50px;
+  width: 40%;
+  margin-top: 5%;
+  padding: 10px;
   z-index: 10;
 }
 .descr{
   float:right;
   width: 50%;
-  padding: 30px;
+  padding: 10px;
   display: block;
-  margin-top: 5%;
+  text-align: justify;
+  margin-top: 2%;
 }
 .ha2{
   text-align: center;
@@ -139,16 +136,25 @@
 .slide4 p{
   float: left;
   width: 50%;
-  padding: 30px;
-  margin-top: 5%;
+  padding: 10px;
+  display: block;
+  text-align: justify;
+  margin-top: 2%;
 }
 .slide4 .image {
   float: right;
-  width: 50%;
-  padding-right: 50px;
+  width: 40%;
   margin-top: 5%;
+  padding: 10px;
+  z-index: 10;
 }
-@media screen and (min-width: 480px) {
+.content{
+  width: 70%;
+  height: 100vh;
+  margin: 0 auto;
+  clear: both;
+}
+@media screen and (min-width: 700px) {
   .nav-btn {
     display: none;
   }
@@ -177,14 +183,11 @@
     color: black;
   }
   .welcome{
-    box-sizing: border-box;
-    border: 2px solid white;
-    box-shadow: 1px 2px 5px 1px;
     width: 70%;
     height: 40%;
-       margin: 0 auto;
-       text-align: center;
-       margin-top: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30%;
        
   }
   .welcome a{
@@ -196,18 +199,19 @@
     margin-top: 50px;
     cursor: pointer;
   }
+  
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
   .slide3{
     height: 100vh;
   }
     .slide3 .image{
-      width: 80%;
+      width: 90%;
       margin: 0 auto;
       display: inline-block;
         }
     .slide4 .image{
-      width: 80%;
+      width: 90%;
       margin: 0 auto;
       display: inline-block;
       float: left;
@@ -215,11 +219,11 @@
     .descr{
       float: left;
       margin-top: 5%;
-      width: 80%;
+      width: 90%;
     }
     .slide4 p{
       float: left;
-      width: 80%;
+      width: 90%;
     }
     .ha2{
       text-align:center;
