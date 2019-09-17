@@ -110,7 +110,7 @@
 .image{
   /* float: left; */
   width: 40%;
-  margin-top: 5%;
+  margin-top: 2%;
   padding: 10px;
   z-index: 10;
 }
@@ -139,17 +139,17 @@
   padding: 10px;
   display: block;
   text-align: justify;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 .slide4 .image {
   float: right;
   width: 40%;
-  margin-top: 5%;
+  margin-top: 3%;
   padding: 10px;
   z-index: 10;
 }
 .content{
-  width: 70%;
+  width: 80%;
   height: 100vh;
   margin: 0 auto;
   clear: both;
@@ -230,5 +230,8 @@
       margin: 0 auto;
       padding: 20px;
       z-index: 100;
+    }
+    .content{
+      width: 90%;
     }
 }
