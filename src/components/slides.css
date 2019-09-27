@@ -9,6 +9,9 @@
     background-color: rgb(255, 255, 255);
     z-index: 1;
   }
+  .nav-links li{
+    height: 60px;
+  }
   .nav-header {
     display: flex;
     justify-content: space-between;
@@ -30,7 +33,6 @@
     list-style-type: none;
   }
   .nav-links a {
-    display: block;
     text-decoration: none;
     padding: 1rem 0;
     color: var(--mainBlack);
@@ -47,24 +49,19 @@
   .show-nav {
     height: 50vh;
     background-color: #fff;
-    
+    text-align: center;
   }
+  
   .logo{
     position: relative;
     top:0;
   }
- #home{
+  #home{
+    padding-top: 50px;
+  }
+ #intro, #true-money-wallet, #how-true-money-works, #how-to-apply-2019, #spend-true-money, #true-money-padala, #FAQs {
    padding-top: 30px;
  }
- #about{
-  padding-top: 50px;
-}
-#options{
-  padding-top: 50px;
-}
-#faqs{
-  padding-top: 50px;
-}
   /* end of navbar */
 .slide1 {
     height: 100vh;
@@ -80,7 +77,8 @@
   padding-bottom: 30px;
   padding-top: 20px;
   margin-bottom: 60px;
-  font-size: 70px;
+  font-size: 35px;
+  line-height: 50px;
   color: black;
 }
 .welcome{
@@ -110,7 +108,7 @@
 .image{
   /* float: left; */
   width: 40%;
-  margin-top: 2%;
+  margin-top: 5%;
   padding: 10px;
   z-index: 10;
 }
@@ -144,7 +142,7 @@
 .slide4 .image {
   float: right;
   width: 40%;
-  margin-top: 3%;
+  margin-top: 5%;
   padding: 10px;
   z-index: 10;
 }
@@ -154,12 +152,16 @@
   margin: 0 auto;
   clear: both;
 }
-@media screen and (min-width: 700px) {
+.faqs{
+  width: 70%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1470px) {
   .nav-btn {
     display: none;
   }
   .nav-center {
-    max-width: 1170px;
+    /* max-width: 1500px; */
     margin: 0 auto;
     display: flex;
   }
@@ -171,6 +173,11 @@
   .nav-links a {
     margin: 0 1rem;
     padding: 0.5rem 0;
+    margin-bottom: 10px;
+  }
+  .navbar{
+    height: 30px;
+    padding-bottom: 5px;
   }
 }
 @media screen and (max-width: 733px) {
@@ -179,7 +186,8 @@
     padding-bottom: 30px;
     padding-top: 20px;
     margin-bottom: 60px;
-    font-size: 40px;
+    font-size: 25px;
+    line-height: 32px;
     color: black;
   }
   .welcome{
@@ -205,17 +213,17 @@
   .slide3{
     height: 100vh;
   }
+  .image{
+    min-width: 100%;
+    margin: 0 auto;
+    display: block;  
+
+  }
     .slide3 .image{
       width: 90%;
       margin: 0 auto;
       display: inline-block;
         }
-    .slide4 .image{
-      width: 90%;
-      margin: 0 auto;
-      display: inline-block;
-      float: left;
-    }
     .descr{
       float: left;
       margin-top: 5%;

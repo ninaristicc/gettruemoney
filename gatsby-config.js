@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `getTrueMoney`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Get TrueMoney Wallet – English Language Version Review`,
+    description: `Check out updated TrueMoney Wallet Review for 2019 in English. Get TrueMoney Wallet Application and experience cashless society.`,
     author: `@gatsbyjs`,
   },
   plugins: [

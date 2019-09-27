@@ -33,13 +33,22 @@ Component {
                     <a onClick={this.handleToggle} href="#home">Home</a>
                 </li>
                 <li>
-                    <a onClick={this.handleToggle} href="#about">About</a>
+                    <a onClick={this.handleToggle} href="#intro">Introduction</a>
                 </li>
                 <li>
-                    <a onClick={this.handleToggle} href="#options">Options</a>
+                    <a onClick={this.handleToggle} href="#true-money-wallet">What Is TrueMoney Wallet?</a>
                 </li>
                 <li>
-                    <a onClick={this.handleToggle} href="#faqs">FAQs</a>
+                    <a onClick={this.handleToggle} href="#how-true-money-works">How TrueMoney Works</a>
+                </li>
+                <li>
+                    <a onClick={this.handleToggle} href="#how-to-apply-2019">How To Apply</a>
+                </li>
+                <li>
+                    <a onClick={this.handleToggle} href="#spend-true-money">Spend Using TrueMoney</a>
+                </li>
+                <li>
+                    <a onClick={this.handleToggle} href="#FAQs">FAQs</a>
                 </li>
                  </ul>
                 </div>
