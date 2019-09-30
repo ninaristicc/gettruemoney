@@ -7,6 +7,7 @@ import ImageFour from "../components/ImageFour"
 import ImageThree from "../components/ImageThree"
 import ImageFive from "../components/ImageFive"
 import ImageSix from "../components/ImageSix"
+import ImageTwo from "../components/ImageTwo"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -63,7 +64,7 @@ const IndexPage = () => (
       <h2 className="ha2">Spend Using TrueMoney Wallet In 2019</h2>
     <p className="descr">Now that your TrueMoney account is verified, you can <b>top-up your wallet</b> and start spending.Only in Thailand, there are around 500,000 top-up points including FreshMart, Family Mart, 7-Eleven, as well as True kiosks. Obviously, you can also <b>link your bank account</b> with your TrueMoney wallet for accessible at a touch deposits.<br></br><br></br>As for spending, well, the sky is truly the limit, whether you are in Thailand, or in the other five states, the Philippines, Indonesia, Cambodia, Vietnam, or Myanmar. You can easily shop at the popular 7-Eleven stores, Makro, McDonald’s, TrueCoffee and other thousands of shops from the region. You can also be on the lookout for special promotions that are TrueMoney partners exclusive. As a result, you can hit two birds with one stone: enjoy a juicy discount & get special rewards in the process. <br></br><br></br>Online, your possibilities are endless: you can spend on different Google Play & App Store apps or if you are more of a PC/console type of player, you can easily use TrueMoney to buy digital games via stores like Steam or purchase promotional gift cards & online tickets. You can also pay your bills with this mobile app, from electricity bill, water bill, easy pass, tax bill, credit card bill, to insurance premiums, internet & mobile network packages, and more.<br></br><br></br>If you order the instant <b>TrueMoneyWeCard</b>, you can further extend your purchasing power to literally anywhere MasterCard is accepted. Just simply connect your virtual prepaid card to your store of choice and voila: anything is within your reach, no cash, no physical card required.</p>
     <div alt="TrueMoney" className="image" alt="Pay bills with TrueMoney App" style={{ maxWidth: `540px`, marginBottom: `1.45rem` }}>
-    <ImageThree /> </div></div>
+    <ImageTwo /> </div></div>
     </section>
     {/* slide 6 end */}
     {/* slide 7 start */}
@@ -78,8 +79,8 @@ const IndexPage = () => (
     {/* slide 8 start */}
     <section className="slide3" id="FAQs">
       <div className="content">
+        <div className="faqs">
       <h2 className="ha2">Frequently Asked Questions (FAQ)</h2>
-      <div className="faqs">
     <p>In case you aren’t satisfied with the information received thus far or you just want a TL;DR version of a 2019 TrueMoney review in English, you can definitely use this FAQ section. All common questions followed by compressed and easy-to-read answers are just below.</p>
     <h3>Is TrueMoney legit?</h3>
     <p>It most certainly is. TrueMoney Wallet is an electronic payment service regulated in countries such as <i>Thailand, the Philippines, Indonesia, Cambodia, Vietnam & Myanmar</i>. It has won multiple awards for the last several years and has close ties with Ant Financial - formerly known as Alipay - which has been investing in TrueMoney since 2016. The mobile app meets the <b>security standards</b> implemented by all popular worldwide eWallets like PayPal.</p>

@@ -6,7 +6,7 @@
     width: 100%;
     padding: 0.75rem 1rem;
     height: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: #f18002;
     z-index: 1;
   }
   
@@ -46,7 +46,7 @@
   
   .show-nav {
     height: auto;
-    background-color: #fff;
+    background-color: #f18002;
     text-align: center;
   }
   .show-nav li{
@@ -95,25 +95,31 @@
 }
 .welcome a{
   padding: 30px;
-  border: 2px solid white;
-  background-color: #333333;
+  border: 2px solid #f18002;
   color: white;
   text-decoration: none;
   margin-top: 50px;
   cursor: pointer;
 }
+.welcome a:hover{
+  background-color: #f18002;
+  transition: .2s ease-in-out;
+}
 .slide3 {
     min-height: 100vh;
     /* background-image: url(../images/tm-logo.jpg); */
-    background-color: rgb(255, 255, 255);
+    background-color: #f9f9f9;
     display: inline-block;
-    margin-top: 70px;
+    
 }
 .image{
   /* float: left; */
   width: 40%;
   margin-top: 5%;
   z-index: 10;
+}
+.faqs{ 
+  background-color: #f9f9f9;
 }
 .descr{
   float:right;
@@ -125,13 +131,13 @@
 }
 .ha2{
   text-align: center;
-  padding-top: 70px;
+  padding-top: 80px;
 
 }
 .slide4 {
   min-height: 100vh;
   /* background-image: url(../images/tm-logo.jpg); */
-  background-color: rgb(255, 255, 255);
+  background-color: #f9f9f9;
   display: inline-block;
 }
 .slide4 p{
@@ -151,7 +157,7 @@
 .slide5 {
   min-height: 100vh;
   /* background-image: url(../images/tm-logo.jpg); */
-  background-color: rgb(255, 255, 255);
+  background-color: #f9f9f9;
   display: inline-block;
 }
 .slide5 p{
@@ -170,13 +176,15 @@
 }
 .content{
   width: 80%;
-  height: 100vh;
   margin: 0 auto;
   clear: both;
 }
 .faqs{
   width: 70%;
   margin: 0 auto;
+}
+main{
+  min-height: 100vh;
 }
 @media screen and (min-width: 1618px) {
   .nav-btn {
@@ -264,7 +272,7 @@
     .ha2{
       text-align:center;
       margin: 0 auto;
-      padding: 30px;
+      padding: 40px;
       z-index: 100;
     }
     .content{
