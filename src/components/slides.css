@@ -45,12 +45,16 @@
   }
   
   .show-nav {
-    height: 70vh;
+    height: auto;
     background-color: #fff;
     text-align: center;
   }
   .show-nav li{
     line-height: 30px;
+    padding-bottom: 10px; 
+  }
+  .show-nav li:last-child{
+    padding-bottom: 20px;
   }
   .logo{
     position: relative;
@@ -144,6 +148,26 @@
   margin-top: 5%;
   z-index: 10;
 }
+.slide5 {
+  min-height: 100vh;
+  /* background-image: url(../images/tm-logo.jpg); */
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+}
+.slide5 p{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  display: block;
+  text-align: justify;
+  margin-top: 3%;
+}
+.slide5 .image {
+  float: right;
+  width: 40%;
+  margin-top: 0;
+  z-index: 10;
+}
 .content{
   width: 80%;
   height: 100vh;
@@ -154,7 +178,7 @@
   width: 70%;
   margin: 0 auto;
 }
-@media screen and (min-width: 1470px) {
+@media screen and (min-width: 1618px) {
   .nav-btn {
     display: none;
   }
@@ -230,6 +254,10 @@
       width: 90%;
     }
     .slide4 p{
+      float: left;
+      width: 90%;
+    }
+    .slide5 p{
       float: left;
       width: 90%;
     }

@@ -49,7 +49,7 @@ const IndexPage = () => (
     </section>
     {/* slide 4 end */}
     {/* slide 5 start */}
-    <section className="slide4" id="how-to-apply-2019">
+    <section className="slide5" id="how-to-apply-2019">
       <div className="content">
     <h2 className="ha2">TrueMoney 2019: How To Apply</h2>
     <p>Before spending though, you might want to know what are the current updated TrueMoney requirements to use the service. In other words, <b>how to apply for a fully-fledged TrueMoney account.</b><br></br><br></br>Signing up and filling a form is quite easy, yet what happens after that? Due to regulations and the Anti-Money Laundering (AML) act, TrueMoney requires an <b>identity verification</b> from all users. Thai citizens, for example, must provide their ID card as a standard. To increase the limits, the Thai citizen must verify his or her identity at a 7-Eleven convenience store, with the help of the employees or at a TrueMoney kiosk. To speed up the process, it’s better to use the former method during working days & standard working hours. <br></br><br></br>Non-Thai citizens must have their passport ready in order to get through the verification process. The passport must remain valid for at least six months after you complete the verification. Also, you should have a decent HD camera for a selfie. Worth mentioning is that the user must be 15 or older in order to apply & cannot create more than one account. <br></br><br></br>You will find certain limitations if you aren’t a citizen of where your TrueMoney app is based. For example, for foreign citizens in Thailand, the wallet limit is THB 5,000 and the transaction limit is THB 5,000 per day. </p>
