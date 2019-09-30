@@ -4,9 +4,9 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import ImageFour from "../components/ImageFour"
 import ImageThree from "../components/ImageThree"
-import ImageFive from "../components/ImageFive"
-import ImageSix from "../components/ImageSix"
-import ImageTwo from "../components/ImageTwo"
+import ImageFive from "../components/imageFive"
+import ImageSix from "../components/imageSix"
+import ImageTwo from "../components/imageTwo"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
