@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import ImageFour from "../components/ImageFour"
 import ImageThree from "../components/ImageThree"
+import ImageFive from "../components/ImageFive"
+import ImageSix from "../components/ImageSix"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -52,7 +54,7 @@ const IndexPage = () => (
     <h2 className="ha2">TrueMoney 2019: How To Apply</h2>
     <p>Before spending though, you might want to know what are the current updated TrueMoney requirements to use the service. In other words, <b>how to apply for a fully-fledged TrueMoney account.</b><br></br><br></br>Signing up and filling a form is quite easy, yet what happens after that? Due to regulations and the Anti-Money Laundering (AML) act, TrueMoney requires an <b>identity verification</b> from all users. Thai citizens, for example, must provide their ID card as a standard. To increase the limits, the Thai citizen must verify his or her identity at a 7-Eleven convenience store, with the help of the employees or at a TrueMoney kiosk. To speed up the process, it’s better to use the former method during working days & standard working hours. <br></br><br></br>Non-Thai citizens must have their passport ready in order to get through the verification process. The passport must remain valid for at least six months after you complete the verification. Also, you should have a decent HD camera for a selfie. Worth mentioning is that the user must be 15 or older in order to apply & cannot create more than one account. <br></br><br></br>You will find certain limitations if you aren’t a citizen of where your TrueMoney app is based. For example, for foreign citizens in Thailand, the wallet limit is THB 5,000 and the transaction limit is THB 5,000 per day. </p>
     <div alt="TrueMoney" className="image" alt="Identity Verification Process" style={{ maxWidth: `540px`, marginBottom: `1.45rem` }}>
-    <Image /> </div></div>
+    <ImageFive /> </div></div>
     </section>
     {/* slide 5 end */}
     {/* slide 6 start */}
@@ -70,7 +72,7 @@ const IndexPage = () => (
     <h2 className="ha2">TrueMoneyPadala: Your Fast, Affordable & Secure Remittance System</h2>
     <p><b>For domestic as well as international payment gifts, TrueMoney may be the best service adapted for the needs of southeast Asia. </b><br></br><br></br><b>TrueMoneyPadala</b> is already a very popular remittance system in the Philippines used by Filipinos to send money to their loved ones. There are already 20,000 centers nationwide and the number is growing with each passing day. The fees are very affordable with different promos taking place on a monthly basis. Currently, TrueMoneyPadala Philippines has eight domestic partners, plus two international remittance partners in WorldRemit and Bank of Commerce.<br></br><br></br>The other countries in the region - Thailand, Indonesia, Cambodia, Vietnam, and Myanmar - also benefit from a fast & affordable remittance system by simply using the TrueMoney Transfer option. All one has to do to send money to his/her loved one(s) is fill out the registration form at a local TrueMoney operating location, hand in the gift, wait for the receipt & an SMS containing a passcode. The recipient receives the passcode and shows it to his/her local TrueMoney operating location with an identification document and phone number. The transfer is confirmed and the recipient is now in possession of the payment gift. No other requirements needed! </p>
     <div alt="TrueMoney" className="image" alt="Transfer Money with TrueMoney" style={{ maxWidth: `540px`, marginBottom: `1.45rem` }}>
-    <Image /> </div></div>
+    <ImageSix /> </div></div>
     </section>
     {/* slide 7 end */}
     {/* slide 8 start */}

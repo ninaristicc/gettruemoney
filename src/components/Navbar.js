@@ -48,6 +48,9 @@ Component {
                     <a onClick={this.handleToggle} href="#spend-true-money">Spend Using TrueMoney</a>
                 </li>
                 <li>
+                    <a onClick={this.handleToggle} href="#true-money-padala">True Money Padala</a>
+                </li>
+                <li>
                     <a onClick={this.handleToggle} href="#FAQs">FAQs</a>
                 </li>
                  </ul>
