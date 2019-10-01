@@ -231,14 +231,16 @@ main{
   }
   .welcome a{
     padding: 20px;
-    border: 2px solid white;
-    background-color: #333333;
+    border: 2px solid #f18002;
     color: white;
     text-decoration: none;
     margin-top: 50px;
     cursor: pointer;
   }
-  
+}
+.welcome a:hover{
+  background-color: #f18002;
+  transition: .2s ease-in-out;
 }
 @media screen and (max-width: 1000px) {
  
