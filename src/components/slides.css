@@ -8,8 +8,10 @@
     height: 40px;
     background-color: #f18002;
     z-index: 1;
+  } 
+  .nav-center{
+    height: 50px;
   }
-  
   .nav-header {
     display: flex;
     justify-content: space-between;
@@ -43,10 +45,12 @@
   .nav-links a:hover {
     color: rgb(65, 95, 161);
   }
-  
+  .nav-links .show-nav{
+    display: none;
+  }
   .show-nav {
-    height: auto;
     background-color: #f18002;
+    height: auto;
     text-align: center;
   }
   .show-nav li{
@@ -211,7 +215,6 @@ main{
   }
 }
 @media screen and (max-width: 733px) {
-
   .welcome h1{
     text-align: center;
     padding-bottom: 30px;
