@@ -33,7 +33,7 @@ Component {
                     <a onClick={this.handleToggle} href="#home">Home</a>
                 </li>
                 <li>
-                    <a onClick={this.handleToggle} href="#intro">Introduction</a>
+                    <a onClick={this.handleToggle} href="#intro">Intro</a>
                 </li>
                 <li>
                     <a onClick={this.handleToggle} href="#true-money-wallet">What Is TrueMoney Wallet?</a>
