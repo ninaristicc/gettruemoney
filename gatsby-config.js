@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.gettruemoney.netlify.com`,
     title: `Get TrueMoney Wallet – English Language Version Review`,
     description: `Check out updated TrueMoney Wallet Review for 2019 in English. Get TrueMoney Wallet Application and experience cashless society.`,
     author: `@gatsbyjs`,
@@ -27,6 +28,13 @@ module.exports = {
         icon: `src/images/TrueMoney-Logo.jpg`, // This path is relative to the root of the site.
       },
     },
+    {
+    resolve: `gatsby-plugin-canonical-urls`,
+    options: {
+      siteUrl: `https://www.gettruemoney.netlify.com`,
+    },
+  },
+    `gatsby-plugin-robots-txt`, `gatsby-plugin-sitemap`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
